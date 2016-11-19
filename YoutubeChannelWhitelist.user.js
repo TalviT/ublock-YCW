@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name        YouTube - whitelist channels in uBlock Origin
 // @namespace   talvi@see-base.de
+// @author      Talvi Thorson (forked by Gingerbread Man)
 // @description Helps whitelist YouTube channels in uBlock Origin
 // @include     http://*.youtube.com/*
 // @include     https://*.youtube.com/*
-// @version     1
+// @version     1.0
 // @grant       none
+// @license     http://creativecommons.org/licenses/by-sa/4.0/
 // ==/UserScript==
 
 var updateHref = function (url) {
